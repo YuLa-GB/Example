@@ -59,7 +59,7 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 if(n >= 100 && n < 1000)
 {
-    Console.WriteLine("Last digit of " + n + " is" + n % 10);
+    Console.WriteLine("Last digit of " + n + " is " + n % 10);
 }
 else
 {
