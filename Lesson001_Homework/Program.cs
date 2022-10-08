@@ -49,19 +49,18 @@ else
 */
 
 // Задача 8: Напишите программу, котопая на вход принимает число (N), а на выходе показывает все четные числа от 1 до N.
-
+/*
 Console.Write("Input a number: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 int current = 1;
 
-if(n < 0)
-{
-    current = n;
-}
-
 while(current <= n)
 {
+   if(current % 2 == 0)
+   {
     Console.Write(current + " ");
-    current++;
+   }
+   current++;
 }
+*/
