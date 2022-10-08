@@ -55,9 +55,9 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 int current = 1;
 
-if(n % 2 >= 1)
+if(n < 0)
 {
-    current = n;
+    current = 1;
 }
 
 while(current <= n)
