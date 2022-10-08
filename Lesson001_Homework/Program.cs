@@ -57,7 +57,7 @@ int current = 1;
 
 if(n < 0)
 {
-    current = 1;
+    current = n;
 }
 
 while(current <= n)
