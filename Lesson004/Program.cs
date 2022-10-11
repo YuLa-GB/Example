@@ -42,7 +42,7 @@ Console.WriteLine($"Number of digits is {a}");
 
 
 // Задача 4 Напишите программу, которая выводит массив из m элементов, заполненный нулями и единицами в случайном порядке
-
+/*
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -70,7 +70,7 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateRandomArray(size, min, max);
 ShowArray(myArray);
-
+*/
 
 // ДЗ дополнительно (+ к тому, что есть на сайте): создать метод, который генерирует массив, запрашивая каждый элемент
 
