@@ -24,7 +24,7 @@ Console.WriteLine($"Bigger digit of {number} is {biggerDigit}");
 */
 
 //Задача 2 Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
-
+/*
 int RemoveTheSecond(int num)
 {
     int ed = num % 10;
@@ -36,7 +36,25 @@ int RemoveTheSecond(int num)
 int number = new Random().Next(100,1000);
 Console.WriteLine(number);
 Console.WriteLine(RemoveTheSecond(number));
-
+*/
 
 // Задача 3 Напишите программу , которая принимает на вход число n и проверяет, 
 //          кратно ли оно одновременно и a и b (целочисленные делители, также задаются пользоватлем)
+
+bool Del(int num, int num1, int num2)
+{
+    if(num % num1 == 0 && num % num2 == 0)
+    {
+       return true;
+    }
+    return false;
+}
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите первый делитель: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите второй делитель: ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Ответ: {Del(number,a,b)}");
