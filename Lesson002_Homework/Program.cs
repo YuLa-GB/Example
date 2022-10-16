@@ -20,7 +20,7 @@ string ShowTheThird (int num)
 
        if(length > 2)
        {
-       // Console.WriteLine("TEST " + (num / Math.Pow(10, length - 3)));
+       // Console.WriteLine("TEST " + (num / Math.Pow(10, length - 3)));      // можно через цикл
         int result = num / Convert.ToInt32(Math.Pow(10, length - 3)) % 10;
         return Convert.ToString(result);
        }
