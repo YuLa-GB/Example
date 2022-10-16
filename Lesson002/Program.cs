@@ -23,6 +23,28 @@ int biggerDigit = FindBiggerDigit(number);
 Console.WriteLine($"Bigger digit of {number} is {biggerDigit}");
 */
 
+//Преобразовать Задачу 1 - весь функционал задачи отправляется в метод
+
+void FindBiggerDigit()
+{
+    Console.Write("Input a two-digit number: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+     int result;                   
+                        
+        int ed = num % 10;         
+        int dec = num / 10;
+
+        if(ed > dec)
+            result = ed;
+        else
+            result = dec;
+
+    Console.WriteLine($"Bigger digit of {num} is {result}");
+}
+
+FindBiggerDigit();
+
+
 //Задача 2 Напишите программу, которая выводит случайное трехзначное число и удаляет вторую цифру этого числа.
 /*
 int RemoveTheSecond(int num)
