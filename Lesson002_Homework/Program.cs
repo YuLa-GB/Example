@@ -32,3 +32,20 @@ Console.WriteLine("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(ShowTheThird(number));
 */
+
+
+// Задача 15. Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+/*
+string CheckingTheWeekend (int num)
+{
+    if(num == 6 || num == 7)
+    {
+        return "да";
+    }
+    return "нет";
+}
+
+Console.WriteLine("Введите цифру дня недели от 1 до 7: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"Является ли выходным днем: {CheckingTheWeekend(number)}");
+*/
