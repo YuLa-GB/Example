@@ -1,4 +1,4 @@
-﻿// Напишите программу, которая на вход принимает число (А) и выдает сумму чисел от 1 до А.
+﻿// Задача 1.  Напишите программу, которая на вход принимает число (А) и выдает сумму чисел от 1 до А.
 /*
 int GetSum(int num)
 {
@@ -21,22 +21,22 @@ Console.WriteLine($"Sum of number from 1 to {a} is {s}");
 
 
 // Задача 2  Напишите программу, которая принимает на вход число и выдает количество цифр в числе.
-/*
-int Num(int n)
-{
-    int current = 0;
-    while(n > 0)
-    {
-        n /= 10;
-        current++;
-    }
-    return current;
-}
-Console.WriteLine("Add the number: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int a = Num(number);
-Console.WriteLine($"Number of digits is {a}");
-*/
+
+// int Num(int n)
+// {
+//     int current = 0;
+//     while(n > 0)
+//     {
+//         n /= 10;
+//         current++;
+//     }
+//     return current;
+// }
+// Console.WriteLine("Add the number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int a = Num(number);
+// Console.WriteLine($"Number of digits is {a}");
+
 
 // Задача 3 Напишите программу, которая принимает на вход число N и выдает произведение чисел от 1 до N.
 
