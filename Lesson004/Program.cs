@@ -40,6 +40,20 @@ Console.WriteLine($"Sum of number from 1 to {a} is {s}");
 
 // Задача 3 Напишите программу, которая принимает на вход число N и выдает произведение чисел от 1 до N.
 
+// int Composition(int num){
+//     int a = 1;
+
+//     for(int current = 1; current <= num; current++){
+//         a = a * current;
+//     }
+//     return a;
+// }
+
+// Console.WriteLine("Input a positive integer number: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// int q = Composition(a);
+// Console.WriteLine($"Composition of number from 1 to {a} is {q}");
+
 
 // Задача 4 Напишите программу, которая выводит массив из m элементов, заполненный нулями и единицами в случайном порядке
 /*
