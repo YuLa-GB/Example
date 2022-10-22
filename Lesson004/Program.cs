@@ -42,7 +42,7 @@ Console.WriteLine($"Sum of number from 1 to {a} is {s}");
 
 // int Composition(int num){
 //     int a = 1;
-
+//     if(num < 0) return -1;
 //     for(int current = 1; current <= num; current++){
 //         a = a * current;
 //     }
@@ -52,6 +52,8 @@ Console.WriteLine($"Sum of number from 1 to {a} is {s}");
 // Console.WriteLine("Input a positive integer number: ");
 // int a = Convert.ToInt32(Console.ReadLine());
 // int q = Composition(a);
+// if(a == -1) Console.WriteLine("Факториал не может быть отрицательным");
+// else
 // Console.WriteLine($"Composition of number from 1 to {a} is {q}");
 
 
