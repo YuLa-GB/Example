@@ -76,3 +76,74 @@ ShowArray(myArray);
 
 
 
+// Типы данных
+// bool a = true;
+// bool b = false;
+// bool x;
+
+// int c = 10;
+// double d = 10.8;
+// float e = 3.14F;
+
+// char f = 'b';
+// string g = "hello";
+
+// = - оператор присваивание, возвращает то что справа
+// ==   >=   <=   !=   >   < - операторы сравнения, возвращает bool
+// && || - логические операторы, вовзращает bool
+// + - / * - арифметические операторы, возвращает число
+
+
+// a == b   c > d - a, b, c, d -  операнды
+
+// int a = 10;
+// int b = 4;
+// bool s = a > b;
+// Console.WriteLine(s == true);
+// Console.WriteLine(s);
+
+// int a = 10;
+// int b = 5;
+// int s = a;
+
+// a = b;
+// b = s;
+
+// Console.WriteLine(a); // должно вывестись 5
+// Console.WriteLine(b); // должно вывестись 10
+
+// int[] test = {1, 2, 8, 5, 7};
+
+// for (int i = 0; i < test.Length - 1; i++) {
+//     bool s = test[i+1] > test[i];
+//     if(s){
+//         Console.WriteLine(true);
+//     }    
+// }
+
+// int Test(int a, int b) {
+//     int max;
+//     if(a > b){
+//        max = a; 
+//     }
+//     else{
+//         max = b;
+//     }
+//     return max;
+// }
+
+// int s = Test(5,10);
+// Console.WriteLine(s);
+
+// // true && true -> true
+// // true && false -> false
+
+// // true || true -> true
+// // true || false -> true
+
+// bool TF(bool a, bool b){
+//     return a && b;
+// }
+
+
+
