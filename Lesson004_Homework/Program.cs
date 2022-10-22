@@ -1,5 +1,22 @@
 ﻿// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 
+// 1 вариант
+// int DegreeNum(int a, int b){
+//     int u = a;
+//     for(int i=1; i < b; i++){
+//         a *= u;
+//     }
+//     return a;
+// }
+
+// Console.WriteLine("Введите число А: ");
+// int a = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число В: ");
+// int b = Convert.ToInt32(Console.ReadLine());
+// int c = DegreeNum(a,b);
+// Console.WriteLine(c);
+
+// 2 вариант
 // double DegreeNum(double a, double b){
 //     double s = Math.Pow(a,b);
 //     return s;
@@ -55,26 +72,26 @@
 
 // Доп условие к массиву: создать метод, который генерирует массив, запрашивая каждый элемент
 
-int[] SetArray(int size){
-    int[] array = new int [size];
-    for(int i = 0; i < size; i++)
-    {
-        Console.WriteLine("Введите элемент: ");
-        int a = Convert.ToInt32(Console.ReadLine());
-        array[i] = a;
-    }
-    return array;
-}
+// int[] SetArray(int size){
+//     int[] array = new int [size];
+//     for(int i = 0; i < size; i++)
+//     {
+//         Console.WriteLine("Введите элемент: ");
+//         int a = Convert.ToInt32(Console.ReadLine());
+//         array[i] = a;
+//     }
+//     return array;
+// }
 
-void ShowArray(int[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-        Console.Write(array[i] + " ");
+// void ShowArray(int[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//         Console.Write(array[i] + " ");
 
-    Console.WriteLine();
-}
+//     Console.WriteLine();
+// }
 
-Console.WriteLine("Input number of elements: ");
-int size = Convert.ToInt32(Console.ReadLine());
-int[] myArray = SetArray(size);
-ShowArray(myArray);
+// Console.WriteLine("Input number of elements: ");
+// int size = Convert.ToInt32(Console.ReadLine());
+// int[] myArray = SetArray(size);
+// ShowArray(myArray);
