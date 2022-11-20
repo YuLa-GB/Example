@@ -132,5 +132,19 @@ void Show2dArray(int[,] array)
 }
 
 double[] ColumnAverage(int[,] array){
-
+    double[] result = new double[array.GetLength(1)];
+    Console.Write("Среднее арифметическое каждого столбца: ");
+    for(int j = 0; j < array.GetLength(1); j++){
+        double sum = 0;
+        for(int i = 0; i < array.GetLength(0); i++){
+            sum += array[i,j];
+        }
+        result[j] = Math.Round(sum / (array.GetLength(0)), 2);
+        Console.Write(" " + result[j]);
+    }
+    return result;
 }
+
+int[,] array = CreateRandom2dArray();
+Show2dArray(array);
+ColumnAverage(array);
